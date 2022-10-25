@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
        body {
-          background: linear-gradient(-45deg, goldenrod, burlywood, #23a6d5, #13a15a, yellow);
+          background: linear-gradient(45deg, goldenrod, burlywood, #23a6d5, #13a15a, yellow);
           background-size: 400% 400%;
           animation: gradient 15s ease infinite;
       }
@@ -39,6 +39,10 @@
             width: 35%;
             background-color: aliceblue;
             margin-top: -12%;
+        }
+        .heading:hover{
+            box-shadow: 0px 35px 77px -17px rgba(5,3,4,2);
+            transition: ease-in-out;
         }
         .heading h1{
             font-size: 225%;
@@ -84,9 +88,12 @@
             border: 5px solid rgb(240, 224, 138);
             width: 60%;
             margin-left: 38%;
-            margin-top: -110%;
-            box-shadow: 20% 20% red ;
+            margin-top: -95%;
             background-color: aliceblue;
+        }
+        .heading2:hover{
+            box-shadow: 0px 35px 77px -17px rgba(5,3,4,2);
+            transition: ease-in-out;
         }
         .heading3{
             border: 5px solid rgb(240, 224, 138);
@@ -95,8 +102,12 @@
             margin-top: 5%;
             background-color: aliceblue;
         }
+        .heading3:hover{
+            box-shadow: 0px 35px 77px -17px rgba(5,3,4,2);
+            transition: ease-in-out;
+        }
         .head1{
-            padding: 50px;
+            padding: 5%;
             background: scroll;
             margin-top: -5%;
         }
@@ -116,12 +127,10 @@
             margin-top: -5%;
         }
         .head1 p{
-            text-align:calc(2%);
+            text-align:left;
             content: inherit;
-            font-size: 180%;
+            font-size: 155%;
             color: mediumpurple;
-            background-position-x: center;
-            word-spacing: 5px;
         }
         .head2 p{
             text-align:left ;
@@ -131,10 +140,18 @@
             color: mediumpurple;
             background-position-x: center;
         }
+        .name h2{
+            font-size: 180%;
+            color: royalblue;
+            text-decoration: none;
+            display:-moz-stack;
+
+        }
         h2{
             text-align: left;
             text-decoration: solid;
             font-size: 250%;
+            text-decoration: underline;
         }
         .school p{
             font-size: 200%;
@@ -143,18 +160,36 @@
             padding: 20px;
             color: cornflowerblue;
         }
+        footer{
+            position: relative;
+            scroll-behavior: smooth;  
+            width: 100%;  
+            background-color: burlywood;
+            opacity: 0.5;   
+            text-align: center;
+            display:block;
+        }
+        footer a,p{
+            opacity: 1;
+            color: black;
+            font-size: 135%;
+
+        }
+        footer :hover{
+            box-shadow: 0px 35px 77px -17px rgba(5,3,4,2);
+            transition: ease-in-out;
+        }
 
     </style>
 </head>
 <body>
 <div class="top">
     <div class="he"><h1>Resume</h1></div>
-    <div class="heading">
-        <h1>ContactInfo:</h1> 
+    <div class="heading"> 
         <img src="images/dhanush.jpg.jpg" style="width: 100%;" alt="Avatar">
         <div class="head1">
-            <p><i class="fa fa-id-card" aria-hidden="true"></i> Dhanush Bharathi M</p>
-            <p><i class="fa fa-laptop" aria-hidden="true"></i> ComputerScience & Engineering</p>
+            <h1><i class="fa fa-id-card" aria-hidden="true"></i> ContactInfo:</h1>
+            <div class="name"> <h2> Dhanush Bharathi M</h2> </div>
             <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i> dhanushbharathi20@gmail.com</p>
             <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i> 88xx04xxx9</p>
             <h2><i class="fa fa-globe" aria-hidden="true"></i> KnownLanguages</h2>
@@ -197,6 +232,7 @@
                     <p><i class="fa fa-map-marker" aria-hidden="true"></i> Ambasamudram </p> <br> <br>
                 <h2>Higher Studies</h2>   
                     <p><i class="fa fa-graduation-cap" aria-hidden="true"></i> Einstein College Of Engineering (Current)</p>
+                    <p><i class="fa fa-laptop" aria-hidden="true"></i> ComputerScience & Engineering (Dept.)</p>
                     <p><i class="fa fa-calendar" aria-hidden="true"></i> 2020-2024</p>
                     <p><i class="fa fa-map-marker" aria-hidden="true"></i> Tirunelveli </p>
                 </div>
@@ -207,6 +243,13 @@
 
     </div>
 </div>
+    <footer>
+        <p>Find me on social media.</p>
+        <a href="https://www.facebook.com/don.dhanush.180/"><i class="fa fa-facebook-official w3-hover-opacity"></i> </a>
+        <a href="https://www.instagram.com/royalian_2.8_/"><i class="fa fa-instagram w3-hover-opacity"></i> </a>
+        <a href="https://github.com/DhanushBharathi"><i class="fa fa-github" aria-hidden="true"></i> </a>
+        <a href="https://www.linkedin.com/in/dhanush-bharathi-849b29253/"><i class="fa fa-linkedin w3-hover-opacity"></i> </a>
+    </footer>
 </body>
 
 </html>
